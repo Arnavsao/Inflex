@@ -257,7 +257,7 @@
 
 @media (max-width: 765px){
     .page2 {
-        padding: 50px 0 0 0;
+        padding: 15px 0 0 0;
         margin: 0;
         height: 100vh !important;
     }
@@ -271,7 +271,7 @@
     }
     .page2 p{
         margin: 0;
-        padding: 15px;
+        padding: 10px;
         width: 95%;
     }
     .page2 button{
