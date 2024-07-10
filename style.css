@@ -1,0 +1,900 @@
+.nav-link, .navbar-brand, .navbar-toggler-icon {
+    color: rgb(90, 90, 90) !important;
+    font-size: small;
+}
+
+.nav-link:hover, .navbar-brand:hover, .navbar-toggler-icon:hover {
+    color: #269600 !important;
+}
+
+
+.nav-link:hover, .navbar-brand:hover, .navbar-toggler-icon:hover {
+    color: #4AFC0E;
+}
+
+.logo {
+    max-height: 100px;
+}
+
+.container-custom {
+    padding-left: 3vw;
+    padding-right: 3vw;
+    background-color: #F4F4F4;
+    max-width: 100wv /* Adjust the value to make the navbar wider */
+}
+
+.navbar-nav .nav-item {
+    margin-right: 3vw; /* Adjust the value as needed */
+}
+
+.navbar-nav .nav-item :hover{
+    color:#4AFC0E
+}
+
+.navbar-toggler {
+    background-color: rgb(216, 216, 216);
+
+}
+
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    animation: fadeInDown 0.5s;
+    z-index: 1000; /* Ensure the navbar is above other content */
+    color: #000000;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -50px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.page1 {
+    background-color: #F4F4F4;
+    height: 130vh;
+    width: 100%;
+}
+
+.page1 h1 {
+    font-size:6vw;
+    font-weight: 400;
+    width: 70vw;
+    margin-top: 3vh;
+    margin-left: 4vw;
+}
+
+.page1 .circle {
+    /* position: relative; Ensure relative positioning for absolute children */
+    margin-left: 85vw;
+}
+
+/* Custom CSS for the page1-content */
+.page1-content {
+    flex-wrap: wrap; /* Allow wrapping */
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0; /* Added margin for spacing */
+}
+
+
+.page1 .card1 {
+    position: relative; /* Changed to relative */
+    width: calc(10px + 47vw);
+    background: #4AFC0E; /* Background color */
+    height: 36vh; /* Set card height */
+    border-radius: 0 5vh 0 0 ;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    margin-left: -12vw;
+}
+
+.card-body {
+    padding: .6vw; /* Add some padding inside the card */
+}
+
+.card-title{
+    font-size: 3vw;
+    font-weight: 300;
+    width: 70%;
+}
+
+.card-text{
+    width: 80%;
+}
+
+.btn-primary {
+    background-color: #4AFC0E;
+    border: 1px solid black;
+    height: 3rem;
+    width: 20rem;
+    border-radius: 10rem 10rem 10rem 0;
+    color: black;
+    margin: 1vh;
+    padding-top: 10px;
+}
+
+.btn-primary:hover {
+    background-color: black;
+    color: #4AFC0E;
+}
+
+.page1 .card2 .box1{
+    width: 200px;
+    height: 21vh;
+    background-color: #D8D8D8;
+    margin-left: -30vw;
+    margin-top: 15vh;
+    border-radius: 4vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.group-container {
+    display: flex; /* Example: Use flexbox to align items */
+    justify-content: space-around; /* Example: Space items evenly */
+    align-items: center; /* Example: Center items vertically */
+    /* Additional styling as needed */
+}
+
+.page1 .card1 h5{
+    font-size: calc(10px + 2.5vw);
+}
+
+@media (max-width:1300px){
+    .page1 .card1{
+        margin-left:-1vw;
+        width: 60%;
+    }
+    .page1 .card2{
+        margin-left: 23vw;
+    }
+}
+
+@media (max-width: 991px){
+    .page1 .card1{
+        width: 60%;
+        height: 35vh;
+        padding-top: 20px;
+        margin-left: 0vw;
+    }
+    .card2{
+        margin-left: 40px;
+    }
+}
+
+@media (max-width:878px){
+    .page1 .card1{
+        height: 37vh;
+    }
+}
+
+@media (max-width: 765px){
+    .page1 h1{
+        font-size: 12vw;
+        font-weight: 300;
+    }
+    .page1 .circle{
+        margin-left: 75vw;
+    }
+    .page1 .card1{
+        width: 96%;
+        height: 40%;
+        padding: 25px;
+        margin: 5px;
+        border-radius: 0 40px 0 0;
+    }
+    .page1 .card1 h5{
+        font-size: 7vw;
+    }
+    .page1-content {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center align the elements */
+    }
+    .page1 .card2{
+        margin: 0;
+    }
+    .page1 .card2 .box1{
+        width: 95vw;
+        margin: 5px 0 5px 0;
+        height: 15vh;
+        border-radius: 30px;
+    }
+    
+}
+
+.page2 {
+    background-color: #ffffff;
+    height: 90vh;
+    width: 100%;
+    border-radius: 4vh;
+    padding-top: 8rem;
+}
+
+.page2 h1{
+    font-size: calc(20px + 2vw);
+    font-weight: 300;
+    padding-left: 4rem;
+    /* padding-top: 8rem; */
+}
+
+.page2 h2{
+    font-size: 5vw;
+    font-weight: 350;
+    padding-left: 17%;
+    padding-top: 6rem;
+    width: 80%;
+}
+.page2 p{
+    margin-left: 17% ;
+    width: 50%;
+    padding-top: 4vh;
+}
+
+.page2 button{
+    margin-top: 1vh;
+    margin-left: 17%;
+    width: 11rem;
+    height: 2.5rem;
+    border-radius: 10vh 10vh 10vh 0;
+    color:#4AFC0E;
+    background-color: #000000;
+}
+
+.page2 button:hover{
+    background-color: #4AFC0E;
+    color: black;
+}
+
+@media (max-width: 765px){
+    .page2 {
+        padding: 50px 0 0 0;
+        margin: 0;
+    }
+    .page2 h1{
+        padding: 0 0  0 15px;
+    }
+    .page2 h2{
+        width: 90%;
+        font-size: 10vw;
+        padding: 15px;
+    }
+    .page2 p{
+        margin: 0;
+        padding: 15px;
+        width: 95%;
+    }
+    .page2 button{
+        margin: 15px;
+    }
+    .page2{
+        height: 80vh ;
+    }
+
+}
+
+
+.page3 {
+    background-color: #ffffff;
+    height: 100vh;
+    width: 100%;
+    border-radius: 4vh;
+}
+
+.page3 h1{
+    font-size: 5vh;
+    font-weight: 300;
+    padding-left: 4rem;
+    padding-top: 8rem;
+}
+
+.page3 .industry{
+    display: flex;
+    padding-left: 12vw;
+    /* padding-right: -10vw; */
+    padding-top: 5vh;
+    flex-wrap: wrap; /* Allows wrapping for responsiveness */
+    justify-content: flex-start; /* Align items to the start */
+}
+
+.page3 .container{
+    height: 33vh;
+    width: 27vw;
+    font-weight: 200;
+    background:#F4F4F4;
+    /* display: flex; */
+    justify-content: space-between; /* Distribute space between elements */
+    border-radius: 5vh;
+    margin: 8px;
+    padding: 2%;
+    color: rgb(0, 0, 0); /* Ensure text color is readable against the black background */
+}
+
+.page3 #container2{
+    background-color: #4AFC0E;
+}
+
+.bottom_container {
+    margin-right: 4.65%;
+    display: flex; /* Align containers inline */
+    justify-content: flex-end; /* Align to the right */
+    width: 100%; /* Ensure full width */
+}
+
+
+.bottom_container .container {
+    width: 27vw; /* Same width as top containers */
+    background: #F4F4F4;
+    border-radius: 5vh;
+    color: black;
+}
+
+.container p{
+    color: #000000;
+    margin-top: 1.5vw;
+}
+@media (max-width: 765px){
+    .page3{
+        height: 190vh;
+    }
+    .page3 h1{
+        padding-left: 15px;
+        padding-top:0;
+        margin-top: 0;
+    }
+    .page3 .industry {
+        padding: 0;
+        flex-direction: column; /* Stack containers vertically */
+        align-items: center; /* Center align containers */
+    }
+
+    .page3 .container {
+        width: calc(100% - 50px); /* Resize to 95% width of the webpage minus 25px margin on each side */
+        margin: 10px 25px; /* Add vertical margin and horizontal margin */
+        padding: 30px;
+    }
+
+    .bottom_container {
+        flex-direction: column; /* Stack bottom containers vertically */
+        align-items: center; /* Center align bottom containers */
+        width: 100%; /* Ensure full width */
+        margin-right: 0; /* Remove right margin */
+    }
+    .page3 h2{
+        padding: 10px 0 10px 0;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.page4 {
+    background-color: #4AFC0E;
+    height: 295vh; /* Adjusted height for three levels */
+    width: 100%;
+    padding: 3vw 3vw 0 3cqmin ;
+}
+
+.page4 .card {
+    height: 100vh; /* Adjusted to fit three levels */
+    border-radius: 5vh 5vh 0 0;
+    margin-bottom: -5vh;
+    background-color: white;
+    color: #000000;
+    font-size: 50px;
+    position: relative; /* Adjusted for better positioning */
+    border: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.page4 .left_half, .page4 .right_half {
+    width: 50%;
+    height: 100%;
+}
+
+.page4 .left_half {
+    background-color:#F4F4F4;
+    border-radius: 5vh 0 0 0;
+}
+
+.page4 .right_half {
+    background-color: #FFFFFF; /* Added background color for visibility */
+    border-radius: 0 5vh 0 0;
+}
+
+
+.page4 .page2_container {
+    width: 45%;
+    align-items: center;
+    align-self: center;
+}
+
+.page4 .page2_container img {
+    height: 70px;
+    width: 70px;
+}
+
+.page4 .page2_container h2 {
+    font-size: 50px;
+    font-weight: 300;
+    padding: 0.5vw 0 1vw 0;
+}
+
+.page4 .page2_container p {
+    font-weight: 200;
+    font-size: calc(11px + 0.3vw);
+}
+
+
+.page4 #lh1{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center align text */
+    background-color: #000000;
+}
+
+
+.page4 #rh3{
+    background-color: #000000;
+    color: white;
+}
+
+.page4 #lh2,
+.page4 #rh2 {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center align text */
+    padding: 0 2rem; /* Adjust padding as needed */
+}
+
+.page4 #lh2 .page2_container,
+.page4 #rh2 .page2_container {
+    width: 60%; /* Adjust width as per your design */
+    max-width: 800px; /* Example maximum width */
+    margin: 0 auto; /* Center horizontally */
+}
+
+.page4 #lh1 img{
+    height: 300px;
+}
+
+.page4 .right_half {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+
+
+
+.page4 #rh3 {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center align text */
+    padding: 0 2rem; /* Adjust padding as needed */
+}
+
+
+#rh1 {
+    background-image: url('assets/page4 city.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#lh3 {
+    background-image: url('assets/page4 walkway.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 765px) {
+    .page4{
+        height: 321.5vh;
+    }
+    .page4 .card {
+        flex-direction: column;
+        height: 110vh;
+    }
+
+    .page4 .left_half,
+    .page4 .right_half {
+        width: 100%;
+    }
+
+    .page4 .right_half {
+        text-align: center;
+    }
+
+    #lh1 {
+        border-radius: 5vh 5vh 0 0;
+    }
+    .page4 #lh1 img{
+        height: 200px;
+    }
+
+    #rh1, #lh2, #rh2, #lh3, #rh3 {
+        border-radius: 0;
+    }
+
+    /* Change the height of lh2 and rh2 */
+    #lh2, #rh2 {
+        height: 75vh !important; /* Increase the height as needed */
+    }
+
+
+}
+
+
+
+
+
+.page5 {
+    background-color: #232322;
+    height: 80vh;
+    width: 100%;
+    border-radius: 4vh 4vh 0 0 ;
+    color:white ;
+    padding-left: 4vw;
+    padding-top: 5vw;
+    /* margin-top: 1vh; */
+}
+.page5 h2{
+    font-size: 5vh;
+    font-weight: 300;
+
+}
+.page5 h4{
+    font-weight: 200;
+    font-size: large;
+
+    margin-top: 2vh;
+}
+
+.page5 .boxes {
+    display: flex;
+    margin: 20px;
+    padding-left: 10vw;
+    padding-right: 3vw;
+    padding-top: 5vh;
+    flex-wrap: wrap; /* Allows wrapping for responsiveness */
+    justify-content: flex-start; /* Align items to the start */
+}
+
+.page5 .boxes .review {
+    height: 33vh;
+    width: 32%;
+    font-weight: 200;
+    background: black;
+    display: flex;
+    flex-direction: column; /* Ensure that content inside stacks vertically */
+    justify-content: space-between; /* Distribute space between elements */
+    border-radius: 5vh;
+    padding: 3%;
+    color: white; /* Ensure text color is readable against the black background */
+    margin: 5px; /* Reduced space between the boxes */
+}
+
+
+.page5 .boxes .review .by {
+    margin-top: 10px;
+    width: 49%;
+    color: #ffffff; /* Changed to green for visibility */
+    margin-bottom: 5%;
+}
+
+
+@media (max-width: 1302px) {
+    .page5 .boxes .review {
+        height: 38vh;
+    }
+}
+
+@media (max-width: 1100px) {
+    .page5{
+        padding-left: 0;
+        height: 110vh;
+}
+    .page5 .boxes .review {
+        margin-left: 5px;
+        padding: 30px;
+        width: 40vw;
+        height: 320px;
+        /* margin-right: 20%; */
+    }
+    .page5 h2{
+        margin-left: 40px;
+    }
+    .page5 h4{
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 856px) {
+    .page5 {
+        height: 140vh;
+    }
+    .page5-6 h1{
+        padding-top: 20px;
+    }
+    .page5 .boxes {
+        margin-bottom: 50px;
+        padding: 0;
+    }
+    .page5 .boxes .review {
+        padding-bottom: 30px;
+        margin: 0 0 20px 0; /* Adjust margin to give space between divs */
+        width: 500px;
+    }
+    .page5 h2{
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+    .page5 h4{
+        margin-left: 40px;
+    }
+
+}
+
+
+.page5-6{
+    background-color:#4AFC0E;
+    height: 20vh;
+    width: 100%;
+}
+.page5-6 h1{
+    font-weight: 300;
+    padding-left: 8vh;
+    padding-top: 10vh;
+    font-size: 5vh;
+
+}
+
+.page6 {
+    background-color: #4AFC0E;
+    height: 40vh;
+    width: 100%;
+    border-radius:  0 0 4vh 4vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allows wrapping for responsiveness */
+    padding:0 2vw 0 2vw;
+
+}
+.brand {
+    margin-top: 4vh;
+    background: #000000;
+    width: 24%; /* Adjust width as needed */
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff; /* Text color */
+    font-size: 1rem; /* Font size */
+    border-radius: 6vh; /* Optional: Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Box shadow for better appearance */
+}
+@media (max-width: 768px) {
+    .brand {
+        width: 48%; /* Adjust for smaller screens */
+        margin-top: 2vh; /* Decrease space between upper and below divs */
+    }
+    .page6{
+        height: 50vh;
+        padding-bottom: 100px;
+    }
+}
+@media (max-width: 480px) {
+    .brand {
+        width: 100%; /* Full width for very small screens */
+    }
+    .page6 {
+        height: 95vh;
+    }
+}
+
+.page7 {
+    background-color: #ffffff;
+    height: 90vh;
+    width: 100%;
+    border-radius: 4vh;
+    padding: 6vh;
+}
+
+.page7 h1 {
+    width: 30vw;
+    font-weight: 400;
+    font-size: 9vh;
+}
+
+.page7 h2{
+    font-weight: 300;
+    font-size: 24vw;
+}
+
+
+.footer{
+    display: flex;
+    font-size: small;
+}
+
+.footer .privacy{
+    margin-left: 30px;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+.footer-left{
+    color: #000000;
+    margin-bottom: 5vh;
+    margin-left: -4vh;
+    width: 12%;
+}
+.footer .address{
+    margin-left: 40px;
+    margin-bottom: 20px;
+    width: 150px;
+}
+.footer-middle{
+    margin-left: 40px;
+    width: 100px;
+}
+
+.footer-right {
+    margin-top: 6vh;
+    margin-left: auto; /* Pushes it to the rightmost part */
+    text-align: right; /* Aligns content to the right */
+}
+
+/* footer text color */
+.footer-middle ul li a {
+    color: #000000; /* Set your desired color */
+    text-decoration: none; /* Remove underline */
+}
+
+.footer-middle ul li a:hover {
+    color:#269600; /* Change color on hover */
+}
+
+.footer-left ul li a {
+    color: #000000; /* Set your desired color */
+    text-decoration: none; /* Remove underline */
+}
+
+.footer-left ul li a:hover {
+    color:#269600; /* Change color on hover */
+}
+
+.footer .privacy a{
+    color:#000000;
+    text-decoration: none;
+}
+
+.footer .privacy a:hover{
+    color:#269600;
+}
+
+.contact_line{
+    display: flex;
+}
+
+.page7 .contact h3{
+    font-size:medium ;
+    font-weight: 300;
+}
+
+.page7 .contact p{
+    font-size:x-small ;
+    font-weight: 300;
+}
+
+
+.page7 .contact{
+    margin-top: 3vh;
+    margin-left: 20vw;
+}
+
+.page7 .inline_container{
+    display: flex;
+}
+
+
+.page7 .inline_container button{
+    width:25vw;
+    border-radius: 50rem;
+    color:#4AFC0E;
+    background-color: black;
+    height: 2.5rem;
+    padding-left: 1vh;
+}
+
+#input_box {
+    width: 100%;
+}
+.inline_container {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox_text {
+    margin-right: 20px;
+    margin-left: 5px;
+}
+button {
+    margin-left: 2.5vw;
+}
+
+@media (max-width: 991px) {
+    .contact_line {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Align items to the left */
+        padding-left: 20px; /* Optional: Add padding to the left */
+    }
+    .page7 .contact {
+        margin-top: 20px; /* Adjust margin-top as needed */
+        margin-left: -50px; /* Adjust margin-left as needed */
+        width: 100%; /* Ensure full width */
+    }
+
+    .page7 h1 {
+        margin-left: -60px;
+        width: 100%;
+        font-size: 10vw;
+    }
+    .page7 h2 {
+        margin-left: -40px;
+    }
+    .footer {
+        flex-direction: column;
+        margin-left: -30px;
+    }
+    .footer div {
+        width: 100%;
+        margin-left: -30px;
+    }
+
+    .footer-left{
+        margin-bottom: 0px;
+    }
+    
+    .footer .privacy{
+        margin-left: 10px;
+    }
+
+    .footer .address{
+        margin-left: 10px;
+        width: 150px;
+    }
+
+    .footer-right {
+        margin-left: 0;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
