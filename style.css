@@ -362,6 +362,7 @@
         width: calc(100% - 20px); /* Resize to 95% width of the webpage minus 25px margin on each side */
         margin: 10px 25px; /* Add vertical margin and horizontal margin */
         padding: 10px;
+        height: 35vh;
     }
 
     .bottom_container {
