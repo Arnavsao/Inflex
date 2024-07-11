@@ -345,7 +345,7 @@
 }
 @media (max-width: 765px){
     .page3{
-        height: 190vh;
+        height: 200vh;
     }
     .page3 h1{
         padding-left: 15px;
@@ -359,7 +359,7 @@
     }
 
     .page3 .container {
-        width: calc(100% - 20px); /* Resize to 95% width of the webpage minus 25px margin on each side */
+        width: calc(100% - 50px); /* Resize to 95% width of the webpage minus 25px margin on each side */
         margin: 10px 25px; /* Add vertical margin and horizontal margin */
         padding: 10px;
         height: 35vh;
@@ -545,8 +545,17 @@
     #lh2, #rh2 {
         height: 75vh !important; /* Increase the height as needed */
     }
+    .page4 #lh2 .page2_container,
+    .page4 #rh2 .page2_container {
+    width: 80%; /* Adjust width as per your design */
+    }
+    .page4 .page2_container h2 {
+        font-size: 40px;
 
-
+    }
+    .page4 .page2_container p {
+        font-size: calc(10px + 0.3vw);
+    }
 }
 
 
