@@ -68,14 +68,14 @@
     font-size:6vw;
     font-weight: 400;
     width: 70vw;
-    margin-top: 3vh;
+    margin-top: 10vh;
     margin-left: 4vw;
 }
 
 .page1 .circle {
     position: absolute; /* Ensure absolute positioning */
     right: 0; /* Aligns the element to the right side of the page */
-    margin-left: 20px; /* Adjust the left margin as needed */
+    margin-left: 100px; /* Adjust the left margin as needed */
 }
 
 /* Custom CSS for the page1-content */
