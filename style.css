@@ -545,6 +545,7 @@
     #lh2, #rh2 {
         height: 75vh !important; /* Increase the height as needed */
     }
+    .page4 #rh3 .page2_container,
     .page4 #lh2 .page2_container,
     .page4 #rh2 .page2_container {
     width: 80%; /* Adjust width as per your design */
