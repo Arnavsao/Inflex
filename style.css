@@ -74,8 +74,7 @@
 
 .page1 .circle {
     position: absolute; /* Ensure absolute positioning */
-    right: 0; /* Aligns the element to the right side of the page */
-    margin-left: -50px; /* Adjust the left margin as needed */
+    right: 70px; /* Shifts the element 70px to the left from the right edge */
 }
 
 /* Custom CSS for the page1-content */
