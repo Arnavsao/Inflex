@@ -73,8 +73,9 @@
 }
 
 .page1 .circle {
-    /* position: relative; Ensure relative positioning for absolute children */
-    margin-left: 90vw;
+    position: absolute; /* Ensure absolute positioning */
+    right: 0; /* Aligns the element to the right side of the page */
+    margin-left: 20px; /* Adjust the left margin as needed */
 }
 
 /* Custom CSS for the page1-content */
