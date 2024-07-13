@@ -158,6 +158,10 @@
     .page1 .card2{
         margin-left: 23vw;
     }
+    .page1 .circle {
+    position: absolute; /* Ensure absolute positioning */
+    right: 50px; /* Shifts the element 70px to the left from the right edge */
+    }
 }
 
 @media (max-width: 991px){
@@ -183,8 +187,9 @@
         font-size: 12vw;
         font-weight: 300;
     }
-    .page1 .circle{
-        margin-left: 75vw;
+    .page1 .circle {
+    position: absolute; /* Ensure absolute positioning */
+    right: 30px; /* Shifts the element 70px to the left from the right edge */
     }
     .page1 .card1{
         width: 96%;
